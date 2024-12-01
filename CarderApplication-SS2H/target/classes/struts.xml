@@ -1,0 +1,19 @@
+
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+<constant name="struts.devMode" value="true"/>
+<package name="basicstruts2" extends="struts-default">
+
+  <action name="LoginController" class="controller.LoginController">
+            <result name="loginError" type="redirect">loginError.jsp</result>
+            <result name="loginSuccess" type="redirect">card/loginSuccess.jsp</result>
+        </action>
+
+        <action name="AddCardApplicationController" class="controller.AddCardApplicationController">
+            <result name="addCardError" type="redirect">card/addCardError.jsp</result>
+            <result name="addCradSuccess" type="redirect">card/addCradSuccess.jsp</result>
+        </action>
+</package>
+</struts>
