@@ -7,7 +7,7 @@
    <session-factory>  
       <property name="hbm2ddl.auto">update</property>  
       <property name="dialect">org.hibernate.dialect.MySQL8Dialect</property>  
-      <property name="connection.url">jdbc:mysql://localhost:3306/cardapplication</property>  
+      <property name="connection.url">jdbc:mysql://localhost:3306/url</property>  
       <property name="connection.username">username</property>  
       <property name="connection.password">password</property>  
       <property name="connection.driver_class">driver_class</property>  
