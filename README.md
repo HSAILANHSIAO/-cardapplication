@@ -1,7 +1,7 @@
 # -
 登入系統
 
-pom掛接使用了hiberhate,Struts2,Spring,MySql
+
 
 1.透過hibernate.cfg.xml連上資料庫
 2.DbConntionTest測試資料庫是否連線成功
