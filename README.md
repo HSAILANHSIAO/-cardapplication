@@ -21,9 +21,9 @@
 
 *  針對問題:
 
-![image](https://github.com/user-attachments/assets/457c6822-35e6-423e-bfc1-b6e9c70f519a)
+### 關於會先遇到專案資料夾上面顯示叉叉的Bug,處理方式:是把servlet掛進來(也把Juit掛入)
 
--  關於會先遇到專案資料夾上面顯示叉叉的Bug,處理方式:是把servlet掛進來(也把Juit掛入)
+![image](https://github.com/user-attachments/assets/457c6822-35e6-423e-bfc1-b6e9c70f519a)
 
 *  流程:
 -  1.  先處理Index.jsp在處理Pom.xml
